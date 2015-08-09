@@ -59,6 +59,10 @@
 	border-top-color: white;
 }
 
+#portrait:hover {
+	opacity: 1;
+}
+
 #home {	
 	background-image: url('../images/main_background.jpg');
 	background-size: cover;
@@ -127,6 +131,7 @@
 }
 
 img:hover {
+	opacity: .8;
 	transform: scale(1,1);
 	-webkit-transform: scale(1,1);
 }

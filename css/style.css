@@ -40,6 +40,14 @@
 .line-separator {
 	margin-left: auto;
 	margin-right: auto;
+	width: 1000px;
+	border-bottom: 2px solid #fcac45;
+
+}
+
+.small-line-separator {
+	margin-left: auto;
+	margin-right: auto;
 	width: 150px;
 	border-bottom: 2px solid #fcac45;
 	padding-bottom: 15px;
@@ -79,6 +87,7 @@
 
 	
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #experience {

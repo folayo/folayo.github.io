@@ -7,7 +7,7 @@ $(function() {
 			$('#navbar-list').css({"background": "none"});
 		}
 		else {
-			$('#navbar-list').css({"background": "#2D3139"});
+			$('#navbar-list').css({"background-color": "rgba(0, 0, 0, 0.7)"});
 		}
 	});
 	$(window).on('resize', (function() {
@@ -15,7 +15,7 @@ $(function() {
 			$('#navbar-list').css({"background": "none"});
 		}
 		else{
-			$('#navbar-list').css({"background": "#2D3139"});
+			$('#navbar-list').css({"background-color": "rgba(0, 0, 0, 0.7)"});
 		}
 	}))
 });
